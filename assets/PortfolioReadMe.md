@@ -22,5 +22,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Image has been linked it to the deployed application and will take the user there when clicked.
 - Basic responsive layout has been incorported into the webpage.
 
-
-   
+url to website <a href="https://josephbalshaw.github.io/Joe-s_Week_2_Challange/">here</a>   
