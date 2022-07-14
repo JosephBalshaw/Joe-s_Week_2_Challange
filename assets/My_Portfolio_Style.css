@@ -1,0 +1,171 @@
+:root{
+    --black:#080808;
+    --white:#fffff0;
+    --green:#808000;
+    --tan:#bf8840;
+    --bronze:#c9923e;
+    --silver:#b5b5bd;
+    --brown:#8B4513;
+}
+body{
+    background-color: var(--brown);
+    margin: 0% 2% 0% 2%;    
+}
+.gear{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url("../assets/images/gears.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    border: solid var(--silver);
+    border-width: 10px;
+    color: var(--black);
+    background-color:var(--tan);
+    font-family: 'Times New Roman', Times, serif;        
+}
+
+header h1{
+    display: inline-block;
+    font-size: 48px;    
+}
+span{
+    color: var(--silver);
+    background-color: var(--tan);
+}
+
+header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 30px;
+    float: right;
+    background-color: var(--tan);    
+}
+header nav ul li{
+    margin-right: 30px;
+    display: inline-block;
+}
+
+aside {    
+    display: flex;
+    flex-direction: column;
+    justify-content: wrap;
+    padding:0% 0.5% 0% 0%;
+    background-size: 25%;
+    height: fit-content;
+    min-height: 1000px;
+    width:25%;
+    background-color: var(--tan);
+    border: solid var(--silver);
+    border-width: 10px;
+    float: left;
+}
+aside h2 {
+    font-size:30px;
+    text-align: center;
+    padding-top: 20px;
+}
+aside p{
+    width: 60%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.knot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+section{    
+    float: right;
+    width: 70%;
+    height: fit-content;
+    background-color: var(--tan);
+    border: solid var(--silver);
+    border-width: 10px;
+}
+section h2{
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    padding: 20px 10px 10px 10px;  
+    text-align: center;
+        
+}
+#first-challenge{
+    display: block;
+}
+
+#first-challenge h3{
+    font-size: 20px;
+    text-decoration: underline;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.first{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: left;
+}
+#CV{
+    height: 300px;
+}
+#CV-image{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;    
+}
+footer {
+    padding-top: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    border: solid var(--silver);
+    border-width: 10px;
+    color: var(--black);
+    background-color:var(--tan);
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+footer h3{
+    display: inline-block;
+    font-size: 36px;  
+
+}
+footer div ul p{
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 30px;
+    float: right;
+    background-color: var(--tan);    
+    margin-right: 30px;
+}
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+    aside {
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+  
+    body {
+      max-width: 1200px;
+    }
+  }
